@@ -1,0 +1,22 @@
+name: Vantage Pre Production Admin portal  Website Deployment
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Deploy Admin portal   Build Files
+        shell: powershell
+        run: |
+          $ErrorActionPreference = "Stop"
+          & "D:\Vantage App\scripts\deploy-vantage-admin.ps1"
