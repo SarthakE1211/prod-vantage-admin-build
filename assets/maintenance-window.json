@@ -1,8 +1,8 @@
 {
   "enabled": true,
-  "windowStart": "2026-08-28T03:00:00+05:30",
-  "windowEnd": "2026-08-28T08:00:00+05:30",
-  "dateLabel": "28 August 2026",
-  "timeLabel": "3:00 AM to 8:00 AM",
+  "windowStart": "2026-09-10T18:30:00+05:30",
+  "windowEnd": "2026-09-10T19:00:00+05:30",
+  "dateLabel": "10 September 2026",
+  "timeLabel": "6:30 PM to 7:00 PM",
   "timeZoneLabel": "IST"
 }
